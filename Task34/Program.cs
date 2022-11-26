@@ -32,16 +32,4 @@ int[] FillArrayRandom(int[] array, int min, int max)
     return array;
 }
 
-void PrintArray(int[] array)
-{
-    int i = 0;
-    Console.Write("[");
-    for (i = 0; i < array.Length - 1; i++)
-    {
-        Console.Write($"{array[i]}, ");
-    }
-    Console.Write($"{array[i]}] ");
-    Console.WriteLine();
-}
-
 
